@@ -1,0 +1,24 @@
+<section>
+
+    <div class="d-flex justify-content-between">
+      <h4>Lista de usuarios</h4>
+    </div>
+
+    <br>
+    
+    <table class="table ">
+      <tr>
+        <th>Nombre de usuario</th>
+        <th>Fecha de nacimiento</th>
+        <th>Edad</th>
+        <th>Direccion</th>
+      </tr>
+      <tr *ngFor="let person of persons">
+        <td>{{ person.name }}</td>
+        <td>{{ person.birth }}</td>
+        <td>{{ person.edad }}</td>
+        <td>{{ person.address }}</td>
+      </tr>
+    </table>
+ </section>
+
