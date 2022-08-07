@@ -1,7 +1,7 @@
 export interface Usuarios {
 
     name: string;
-    birth: string;
+    fecha_nacimiento: string;
     edad: number;
-    address: string;
+    domicilio: string;
 }
